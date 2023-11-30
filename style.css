@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgb(41, 37, 91);
+    color: #fff;
+}
+.navbar{
+    height: 80px;
+    background-color: rgb(41, 37, 91);
+    border-bottom: 1px solid white;
+}
+.navbar-nav{
+    margin-left: 60px;
+    gap: 10px;
+}
+
+.PORTFOLIO {
+    height: 100vh;
+    width: 100%;
+}
+.card-img {
+    margin-top: 150px;
+}
+.logo {
+    width: 300px;
+}
+
+.h1 {
+    font-family: "Playfair Display", Sans-serif;
+}
+.button{
+    position: absolute;
+    margin-left: 185px;
+    width: 200px;
+    height: 50px;
+    bottom: 90px;
+    color: #fff;
+    background-color: rgb(41, 129, 41);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+.buttonnav{
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(244,123,172);
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 8px;
+
+}
+ 
+@media screen and (max-width: 991px) {
+    .card-img {
+        margin-top: 80px;
+        margin-left: -5px;
+    }
+    .button{
+        position: absolute;
+        margin-left: 95px;
+        width: 200px;
+        height: 50px;
+        bottom: 120px;
+        color: #fff;
+        background-color: rgb(41, 129, 41);
+        border: 1px solid black;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .h1 {
+        margin-top: 60px;
+        text-align: center;
+    }
+    .navbar{
+        height: 100px;
+        background-color: rgb(41, 37, 91);
+        border-bottom: 1px solid white;
+    }
+    .navbar-nav{
+        background-color:  rgb(41, 37, 91);
+        margin-left: 10px;
+    }
+    .buttonnav{
+        width: 200px;
+        height: 50px;
+        color: #fff;
+        background-color: rgb(244,123,172);
+        border: 1px solid black;
+        border-radius: 25px;
+        text-align: center;
+        padding-top: 8px;
+        margin-left: 90px;
+    
+    }
+}
+
+.PORTFOLIO1 {
+    height: 100vh;
+    width: 100%;
+}
+.card-img1 {
+    margin-top: 150px;
+}
+.box1{
+    margin-top: 180px;
+}
+
+@media screen and (max-width: 991px) {
+    .card-img1 {
+        margin-top: 70px;
+    }
+    .box1 h1{
+        text-align: center;
+    }
+    .box1{
+        margin-left: 40px;
+        margin-top: 230px;
+    }
+     
+}
+
+.PORTFOLIO2 {
+    height: 100vh;
+    width: 100%;
+}
+.card-img2 {
+    margin-top: 150px;
+}
+.box2{
+    margin-top: 180px;
+}
+.button2{
+    position: absolute;
+    top: 2000px;
+    margin-left: 185px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(41, 129, 41);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+@media screen and (max-width: 991px) {
+    .card-img2 {
+        margin-top: 90px;
+    }
+    .box2 h1{
+        text-align: center;
+    }
+    .box2{
+        margin-left: 40px;
+        margin-top: 300px;
+    }
+    .button2{
+        position: absolute;
+        top: 2450px;
+        margin-left: 100px;
+        width: 200px;
+        height: 50px;
+        color: #fff;
+        background-color: rgb(41, 129, 41);
+        border: 1px solid black;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 8px;
+    }
+     
+}
+
+.PORTFOLIO3 {
+    height: 100vh;
+    width: 100%;
+}
+.card-img3 {
+    margin-top: 150px;
+}
+.box3{
+    margin-top: 180px;
+}
+.button3{
+    position: absolute;
+    top: 2750px;
+    margin-left: 185px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(41, 129, 41);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+@media screen and (max-width: 991px) {
+    .card-img3 {
+        margin-top: 150px;
+    }
+    .box3 h1{
+        text-align: center;
+    }
+    .box3{
+        margin-left: 40px;
+        margin-top: 400px;
+    }
+    .button3{
+        position: absolute;
+        top: 3430px;
+        margin-left: 100px;
+        width: 200px;
+        height: 50px;
+        color: #fff;
+        background-color: rgb(41, 129, 41);
+        border: 1px solid black;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 8px;
+    }
+     
+}
+.foot{
+    height: 200px;
+    text-align: center;
+    margin-left: -80px;
+    margin-top: 300px;
+    font-size: 22px;
+}
+.footer{
+    margin-top: 20px;
+    height: 350px;
+    background-color: rgb(244,123,172);
+}
+#bt {
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: rgb(89,214,211);
+    left: 43%;
+    top: 3480px;
+    color: #fff;
+    border: none;
+}
+#bt2{
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: rgb(89,214,211);
+    left: 43%;
+    top: 3550px;
+    color: #fff;
+    border: none;
+}
+#bt2:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+#bt:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.footer p{
+    color: #fff;
+    position: absolute;
+    top: 3420px;
+    left: 43.5%;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 991px) {
+    .foot{
+        margin-top: 580px;
+        margin-left: 20px;
+    }
+    .footer{
+        margin-top: 100px;
+        height: 300px;
+        background-color: rgb(244,123,172);
+    }
+    #bt {
+        position: absolute;
+        width: 110px;
+        height: 45px;
+        border-radius: 12px;
+        background-color: rgb(89,214,211);
+        left: 38%;
+        top: 4370px;
+        color: #fff;
+        border: none;
+    }
+    #bt2{
+        position: absolute;
+        width: 110px;
+        height: 45px;
+        border-radius: 12px;
+        background-color: rgb(89,214,211);
+        left: 38%;
+        top: 4300px;
+        color: #fff;
+        border: none;
+    }
+    #bt2:hover{
+        color: black;
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+    #bt:hover{
+        color: black;
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+    .footer p{
+        color: #fff;
+        position: absolute;
+        top: 4270px;
+        left: 39%;
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+}
